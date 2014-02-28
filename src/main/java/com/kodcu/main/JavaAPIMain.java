@@ -48,6 +48,8 @@ public class JavaAPIMain {
         updateDocument(client, "kodcucom", "article", "1", "title", "ElasticSearch: Java API");
         updateDocument(client, "kodcucom", "article", "1", "tags", new String[]{"bigdata"});
 
+        searchDocument(client, "kodcucom", "article", "title", "ElasticSearch");
+        
         getDocument(client, "kodcucom", "article", "1");
 
         searchDocument(client, "kodcucom", "article", "title", "ElasticSearch");
